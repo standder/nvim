@@ -5,3 +5,6 @@
 
 通过toggleterm实现nvim内使用终端
 
+添加了everforest作为配色方案
+
+以packer作为插件管理器

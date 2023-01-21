@@ -7,4 +7,5 @@ require('nvim-autopairs').setup({
 })
 require("toggle")
 require("everforest")
+require("n-telescope")
 vim.cmd "colorscheme everforest"

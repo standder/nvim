@@ -22,7 +22,7 @@ map.set('n','<leader>k','<C-w>k')
 map.set('n','<leader>l','<C-w>l')
 
 
-map.set('n','<A-p>',':ToggleTerm<cr>',{noremap = true, silent = true})
-map.set('t','<A-p>','<C-\\><C-n>:bdelete!%<cr>',{noremap = true, silent = true})
+map.set('n','<A-t>',':ToggleTerm<cr>',{noremap = true, silent = true})
+map.set('t','<A-t>','<C-\\><C-n>:bdelete!%<cr>',{noremap = true, silent = true})
 map.set('t','<esc>','<C-\\><C-n>:bdelete!%<cr>',{noremap = true, silent = true})
 map.set('t','<A-k>','<C-w>k')

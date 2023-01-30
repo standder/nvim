@@ -34,5 +34,6 @@ use {
   requires = { {'nvim-lua/plenary.nvim'} }
 }
 
+use 'francoiscabrol/ranger.vim'
 
 end)

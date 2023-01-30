@@ -26,3 +26,9 @@ map.set('n','<A-t>',':ToggleTerm<cr>',{noremap = true, silent = true})
 map.set('t','<A-t>','<C-\\><C-n>:bdelete!%<cr>',{noremap = true, silent = true})
 map.set('t','<esc>','<C-\\><C-n>:bdelete!%<cr>',{noremap = true, silent = true})
 map.set('t','<A-k>','<C-w>k')
+
+
+map.set('n','<leader>f',':Ranger<cr>')
+
+
+

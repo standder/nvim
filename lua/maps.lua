@@ -16,10 +16,10 @@ map.set('n','<leader>gh',':sp ')
 map.set('n','<leader>gc','<C-w>c')
 map.set('n','<leader>go','<C-w>o')
 
-map.set('n','<leader>h','<C-w>h')
-map.set('n','<leader>j','<C-w>j')
-map.set('n','<leader>k','<C-w>k')
-map.set('n','<leader>l','<C-w>l')
+map.set('n','<C-h>','<C-w>h')
+map.set('n','<C-j>','<C-w>j')
+map.set('n','<C-k>','<C-w>k')
+map.set('n','<C-l>','<C-w>l')
 
 
 map.set('n','<A-t>',':ToggleTerm<cr>',{noremap = true, silent = true})

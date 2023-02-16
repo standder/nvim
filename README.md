@@ -11,6 +11,7 @@ neovim自带的配色方案外还安装了everforest的主题配色方案
 ## 文件搜索
 配置了nvim-tree
 
+## 虚拟终端
 通过toggleterm实现nvim内使用终端
 
 

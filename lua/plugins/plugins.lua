@@ -52,18 +52,20 @@ return require('packer').startup(function(use)
   use "saadparwaiz1/cmp_luasnip"
   use "rafamadriz/friendly-snippets"
   use "hrsh7th/cmp-path" -- 文件路径
+  use "hrsh7th/cmp-cmdline"
+  use "hrsh7th/cmp-buffer"
+
 
   use "numToStr/Comment.nvim" -- gcc和gc注释
   use "windwp/nvim-autopairs" -- 自动补全括号
   use "akinsho/bufferline.nvim" -- 自动补全括号
-  use "lewis6991/gitsigns.nvim" -- 自动补全括号
+  use "lewis6991/gitsigns.nvim" -- git
 
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.x',  -- 文件检索
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use "sharkdp/fd"
-  
+
   use {"akinsho/toggleterm.nvim", tag = '*', config = function()
   require("toggleterm").setup()
 end}

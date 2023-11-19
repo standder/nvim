@@ -31,3 +31,6 @@ map.set('t','<A-t>','<C-\\><C-n>:bdelete!%<cr>',{noremap = true, silent = true})
 map.set('t','<esc>','<C-\\><C-n>:bdelete!%<cr>',{noremap = true, silent = true})
 map.set('t','<A-k>','<C-w>k')
 
+map.set('n','<leader>w',":w<cr> ")
+map.set('n','<leader>q',":q<cr> ")
+map.set('n','<leader>wq',":wq<cr> ")

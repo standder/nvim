@@ -20,6 +20,8 @@ vim.cmd([[
 
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
+
+  --theme
   use 'folke/tokyonight.nvim'
   use {
     'nvim-lualine/lualine.nvim',
@@ -31,14 +33,19 @@ return require('packer').startup(function(use)
     'nvim-tree/nvim-web-devicons'
     }
   }
+
+  --highlight
   use 'nvim-treesitter/nvim-treesitter'
   use "p00f/nvim-ts-rainbow"
+
+  --lsp
   use{
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim',
     'neovim/nvim-lspconfig'
   }
 
+  --cmp
   use "hrsh7th/nvim-cmp"
   use "hrsh7th/cmp-nvim-lsp"
   use "L3MON4D3/LuaSnip" -- snippets引擎，不装这个自动补全会出问题

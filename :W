@@ -1,0 +1,5 @@
+# neovim personal config file
+
+## feature
+1. use lua only
+2. use maeson lsp config to implement automatic completion

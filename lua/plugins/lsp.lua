@@ -14,6 +14,7 @@ require("mason-lspconfig").setup({
     "lua_ls",
     "clangd",
     "gopls",
+    "pyright",
   },
 })
 
@@ -28,5 +29,9 @@ require("lspconfig").clangd.setup {
 }
 
 require("lspconfig").gopls.setup {
+  capabilities = capabilities,
+}
+
+require("lspconfig").pyright.setup {
   capabilities = capabilities,
 }

@@ -27,3 +27,18 @@ opt.swapfile = false
 opt.autoread  = true
 
 vim.cmd[[colorscheme tokyonight-storm]]
+
+return {
+ {
+                "folke/tokyonight.nvim",
+                lazy = true,
+                opts = {
+                        transparent = true,
+                        styles = {
+                                sidebars = "transparent",
+                                floats = "transparent"
+                        }
+                },
+        }
+
+       }

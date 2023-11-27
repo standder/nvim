@@ -25,6 +25,7 @@ map.set('n','<A-m>',':NvimTreeToggle<CR>')
 
 map.set('n','<A-h>',":BufferLineCyclePrev<CR>",opt)
 map.set('n','<A-l>',":BufferLineCycleNext<CR>",opt)
+map.set('n','<A-c>',":BufferLinePickClose<CR>",opt)
 
 map.set('n','<A-t>',':ToggleTerm<cr>',{noremap = true, silent = true})
 map.set('t','<A-t>','<C-\\><C-n>:bdelete!%<cr>',{noremap = true, silent = true})

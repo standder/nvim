@@ -35,3 +35,15 @@ require("lspconfig").gopls.setup {
 require("lspconfig").pyright.setup {
   capabilities = capabilities,
 }
+
+require("lspconfig").rust_analyzer.setup {
+  capabilities = capabilities,
+}
+
+require("lspconfig").foam_ls.setup{
+        capabilities = capabilities,
+}
+
+require("lspconfig").r_language_server.setup{
+        capabilities = capabilities,
+}

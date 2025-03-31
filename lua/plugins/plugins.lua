@@ -52,5 +52,16 @@ return require('packer').startup(function(use)
   require("toggleterm").setup()
 end}
   --makrdown_preview
-  use({"iamcco/markdown-preview.nvim",run = "cd app && npm install", setup = function() vim.g.mkdp_fileypes = {"markdown"} end, ft = {"markdown"},})
+use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+})
+
+use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+use({
+        "kdheepak/lazygit.nvim",
+        requirs = {
+                "nvim-lua/plenary.nvim"
+                }
+        })
 end)

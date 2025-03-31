@@ -47,3 +47,7 @@ require("lspconfig").foam_ls.setup{
 require("lspconfig").r_language_server.setup{
         capabilities = capabilities,
 }
+
+require("lspconfig").rust_analyzer.setup{
+        capabilities = capabilities,
+}

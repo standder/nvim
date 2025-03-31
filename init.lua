@@ -12,4 +12,5 @@ require("plugins/gitsigns")
 require("plugins/telescope")
 require("plugins/toggle")
 require("plugins/markdown-preview")
-
+require("plugins/lazygit")
+require("plugins/auto_change_lang")

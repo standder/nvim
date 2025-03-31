@@ -40,3 +40,6 @@ map.set('n','<leader>q',":q<cr> ")
 map.set('n','<leader>wq',":wq<cr> ")
 
 
+map.set('n','<leader>gg',':LazyGit<CR>',opt)
+
+--vim.api.nvim_buf_set_keymap(0,'t','<esc>')

@@ -1,16 +1,11 @@
-require("base.base")
-require("base.maps")
-require("plugins.plugins")
-require("plugins/lualine")
-require("plugins/nvim-tree")
-require("plugins/treesitter")
-require("plugins/lsp")
-require("plugins/cmp")
-require("plugins/autopairs")
-require("plugins/bufferline")
-require("plugins/gitsigns")
-require("plugins/telescope")
-require("plugins/toggle")
-require("plugins/markdown-preview")
-require("plugins/lazygit")
-require("plugins/auto_change_lang")
+require 'base'
+require 'maps'
+require 'plugins.plugins'
+require 'plugins.autopairs'
+require 'plugins.lualine'
+require 'plugins.toggle'
+require 'plugins.nvim-tree'
+require 'plugins.nvim-tree'
+require 'plugins.telescope'
+require 'plugins.lsp'
+require 'plugins.cmp'

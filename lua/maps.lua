@@ -21,7 +21,7 @@ map.set('n','<C-k>','<C-w>k')
 map.set('n','<C-l>','<C-w>l')
 
 -- nvim-tree
-map.set('n','<A-m>',':NvimTreeToggle<CR>')
+map.set('n','<C-m>',':NvimTreeToggle<CR>')
 
 --bufferline
 map.set('n','<A-h>',":BufferLineCyclePrev<CR>",opt)
@@ -42,4 +42,4 @@ map.set('n','<leader>wq',":wq<cr> ")
 
 map.set('n','<leader>gg',':LazyGit<CR>',opt)
 
---vim.api.nvim_buf_set_keymap(0,'t','<esc>')
+--vim.api.nvim_buf_set_keymap(4,'t','<esc>')

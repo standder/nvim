@@ -27,16 +27,4 @@ opt.signcolumn = "yes"
 opt.swapfile = false
 opt.autoread  = true
 
-if vim.g.neovide then
-        vim.o.guifont = "Hack Nerd Font:h10"
-        neovide_scale_factor = 1.0
-        neovide_position_animation_length=0.2
-        neovide_refresh_rate=144
-        neovide_fullscreen = false
-        neovide_remember_window_size = true
-        neovide_cursor_antialiasing = true
-
-end
-
 vim.cmd[[colorscheme everforest]]
-

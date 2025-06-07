@@ -25,7 +25,6 @@ require("lspconfig").lua_ls.setup {
 }
 
 require("lspconfig").clangd.setup {
-  capabilities = capabilities,
 }
 
 require("lspconfig").gopls.setup {
@@ -45,6 +44,10 @@ require("lspconfig").foam_ls.setup{
 }
 
 require("lspconfig").r_language_server.setup{
+        capabilities = capabilities,
+}
+
+require("lspconfig").bashls.setup{
         capabilities = capabilities,
 }
 
